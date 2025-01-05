@@ -1,0 +1,32 @@
+[project]
+name = "scribb"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.11,<3.12"
+classifiers = [
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = [
+    "altair>=5.5.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.0",
+    "scikit-learn-intelex>=2025.0.1",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.4",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.3.4",
+    "pre-commit>=4.0.1",
+    "pytest>=8.3.4",
+    "ruff>=0.8.6",
+    "uv>=0.5.14",
+]
