@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# To make this script executable:`chmod +x create_repo.sh`
-# To run: `./create_repo.sh`
+# To make this script executable:`chmod +x create_module.sh`
+# To run: `./create_module.sh`
 
 # Get project and module names
 read -p "Enter project name: " project_name
