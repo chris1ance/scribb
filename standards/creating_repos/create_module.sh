@@ -5,8 +5,8 @@
 
 # Get project and module names
 read -p "Enter project name: " project_name
-read -p "Enter module name: " module_name
 read -p "Install LLM dependencies [y/n]: " INSTALL_LLM_DEPS
+read -p "Make installable package: [y/n]" INSTALLABLE_PKG
 
 # Pin Python 3.11
 PYTHON_VERSION=3.11
@@ -22,20 +22,9 @@ mkdir -p "$project_name"
 cd "$project_name"
 
 # Create directory structure
-mkdir -p src/"$module_name" tests docs references scripts notebooks output_data input_data models
-mkdir -p reports/figures
-
-# Create empty files
-touch README.md LICENSE CHANGELOG.md
-touch .gitignore .pre-commit-config.yaml .python-version .env
-touch src/"$module_name"/__init__.py
-
-# Add descriptions to README.md
-cat > README.md << EOL
-# ${project_name}
-
-## Project Structure
-${project_name}/
+<<COMMENT
+# Project Structure
+{project_name}/
 ├── README.md
 ├── LICENSE            # Open-source license
 ├── CHANGELOG.md       # Changelog with format based on https://keepachangelog.com/en/1.1.0/
@@ -44,7 +33,7 @@ ${project_name}/
 ├── .pre-commit-config.yaml
 ├── .python-version
 ├── .env               # Python-dotenv reads key-value pairs from .env and sets them as environment variables
-├── docs/              # User-written project functionality and usage docs
+├── docs/              # Project docs
 ├── output_data/       # Data generated from scripts
 ├── input_data/        # Static, externally obtained input data files
 ├── models/            # Trained and serialized models and model details
@@ -54,9 +43,23 @@ ${project_name}/
 ├── scripts/
 ├── notebooks/         # Jupyter notebooks
 ├── src/
-│   └── ${module_name}/
+│   └── {project_name}/
 │       └── __init__.py
 └── tests/
+COMMENT
+
+# Create directory structure
+mkdir -p src/"$project_name" tests docs references scripts notebooks output_data input_data models
+touch src/"$project_name"/__init__.py
+mkdir -p reports/figures
+
+# Create empty files
+touch README.md LICENSE CHANGELOG.md
+touch .gitignore .pre-commit-config.yaml .python-version .env
+
+# Add README.md
+cat > README.md << EOL
+# ${project_name}
 EOL
 
 # Create LICENSE with BSD 3-Clause
@@ -107,11 +110,15 @@ classifiers = [
   "Programming Language :: Python",
   "Programming Language :: Python :: 3 :: Only",
 ]
+EOL
 
+if [ "$INSTALLABLE_PKG" = "y" ]; then
+    cat >> pyproject.toml << EOL
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 EOL
+fi
 
 # Create .gitignore
 cat > .gitignore << EOL
@@ -136,10 +143,12 @@ build/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
 
 # Logs
 *.log
 logs/
+*.out
 
 # Environment variables
 .env
@@ -206,10 +215,10 @@ conda deactivate
 source .venv/bin/activate
 
 # Add core dependencies
+uv add requests pandas openpyxl altair vegafusion vegafusion-python-embed vl-convert-python seaborn statsmodels scikit-learn scikit-learn-intelex python-dotenv
+
 if [ "$INSTALL_LLM_DEPS" = "y" ] || [ "$INSTALL_LLM_DEPS" = "yes" ]; then
-    uv add transformers gradio tokenizers huggingface-hub optimum accelerate bitsandbytes safetensors einops
-else
-    uv add requests pandas openpyxl altair seaborn statsmodels scikit-learn scikit-learn-intelex python-dotenv
+    uv add transformers gradio tokenizers huggingface-hub optimum accelerate bitsandbytes safetensors einops sentencepiece
 fi
 
 # Add dev dependencies
