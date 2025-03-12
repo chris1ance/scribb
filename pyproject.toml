@@ -12,6 +12,7 @@ classifiers = [
 ]
 dependencies = [
     "altair>=5.5.0",
+    "matplotlib>=3.10.0",
     "openpyxl>=3.1.5",
     "pandas>=2.2.3",
     "pydantic>=2.10.5",
@@ -19,7 +20,6 @@ dependencies = [
     "requests>=2.32.3",
     "scikit-learn>=1.6.0",
     "scikit-learn-intelex>=2025.0.1",
-    "seaborn>=0.13.2",
     "statsmodels>=0.14.4",
 ]
 
