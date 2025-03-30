@@ -1,45 +1,8 @@
-# Textbooks
-
-## Bayesian Statistics
-
-- **Bayesian Data Analysis**: https://users.aalto.fi/~ave/BDA3.pdf
-- **Bayesian Learning and Neural Networks**: https://phuijse.github.io/BLNNbook/README.html
-- **Bayesian Modeling and Computation in Python**: https://bayesiancomputationbook.com/welcome.html#
-
-## Deep Learning
-
-- **Dive into Deep Learning**: 
-    - https://d2l.ai/
-    - https://github.com/d2l-ai/d2l-en
-- **Understanding Deep Learning**: https://udlbook.github.io/udlbook/
-
-## Filtering and Smoothing
-
-- **Kalman and Bayesian Filters in Python**: https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python?tab=readme-ov-file
-- **Bayesian Filtering and Smoothing**: https://users.aalto.fi/~ssarkka/pub/cup_book_online_20131111.pdf
-
-## Machine Learning
-
-- **Machine Learning: A Probabilistic Perspective**: https://probml.github.io/pml-book/book0.html
-- **Probabilistic Machine Learning: An Introduction**: https://github.com/probml/pml-book
-    - https://github.com/probml/pyprobml/tree/master/notebooks/book1
-- **Probabilistic Machine Learning: Advanced Topics**: https://github.com/probml/pml2-book
-    - https://github.com/probml/pyprobml/tree/master/notebooks/book2
-
-## Math
-
-- **Mathematics For Machine Learning**: https://mml-book.github.io/
-
-## Time Series
-
-- **A Very Short Course on Time Series Analysis**: https://bookdown.org/rdpeng/timeseriesbook/
-- https://github.com/PacktPublishing/Modern-Time-Series-Forecasting-with-Python-2E
-
 # Detailed Explainers
 
 ## JAX
 
-- https://github.com/n2cholas/awesome-jax
+- **Awesome JAX**: https://github.com/n2cholas/awesome-jax
 
 ## Time Series Forecasting
 
