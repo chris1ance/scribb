@@ -6,6 +6,7 @@
 - **Bayesian Learning and Neural Networks**: https://phuijse.github.io/BLNNbook/README.html
 - **Bayesian Modeling and Computation in Python**: https://bayesiancomputationbook.com/welcome.html#
 - **Exploratory Analysis of Bayesian Models**: https://arviz-devs.github.io/Exploratory-Analysis-of-Bayesian-Models/
+- **Bayesian Filtering and Smoothing**: https://users.aalto.fi/~ssarkka/#books
 
 ## Deep Learning
 
@@ -38,11 +39,22 @@
 - **Mathematical Foundations of Machine Learning (Seongjai Kim)**: https://skim.math.msstate.edu/Class/ma4183-6183-ML-25Spring/
 - **Mathematical Foundations of Machine Learning ( Robert Nowak)**: https://nowak.ece.wisc.edu/MFML.pdf
 
+## Python
+
+- **Python Developer Tooling Handbook**: https://pydevtools.com/handbook/
+
 ## Time Series
 
 - **A Very Short Course on Time Series Analysis**: https://bookdown.org/rdpeng/timeseriesbook/
 - **Forecasting: Principles and Practice**: https://otexts.com/fpp3/
+- **Forecasting in Economics, Business, Finance and Beyond**: https://www.sas.upenn.edu/~fdiebold/Textbooks.html
 
 ## NLP
 
 - **Speech and Language Processing**: https://web.stanford.edu/~jurafsky/slp3/
+
+## Econometrics
+
+- **Using Python for Introductory Econometrics**: https://urfie.net/
+- **Econometric Data Science**: https://www.sas.upenn.edu/~fdiebold/Textbooks.html
+- **Introduction to Econometrics with R**: https://www.econometrics-with-r.org/index.html
