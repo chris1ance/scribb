@@ -20,6 +20,7 @@ dependencies = [
     "requests>=2.32.3",
     "scikit-learn>=1.6.0",
     "scikit-learn-intelex>=2025.0.1",
+    "sktime==0.36",
     "statsmodels>=0.14.4",
 ]
 
