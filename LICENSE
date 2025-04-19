@@ -1,30 +1,30 @@
-BSD 3-Clause License
+scribb - Proprietary License
+Copyright © 2025 chris1ance. All Rights Reserved.
 
-Copyright (c) 2025, scribb developers
+1. License Grant
 
-All rights reserved.
+Subject to the terms of this License, the copyright holder hereby grants you a limited, non-exclusive, non-transferable, revocable license to use the software and its associated documentation (collectively, the “Software”) solely for your private, non-commercial purposes.
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+2. Restrictions
 
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
+You may not distribute, sublicense, sell, rent, lease, or otherwise make the Software available to any third parties without the express written consent of the copyright holder.
 
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
+You may not modify, create derivative works from, or publicly display the Software (in whole or in part) except for your own private, non-commercial purposes.
 
-3. Neither the name of the copyright holder nor the names of its
-   contributors may be used to endorse or promote products derived from
-   this software without specific prior written permission.
+You may not remove or alter any copyright notices, trademarks, or other proprietary markings from the Software.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+3. Ownership
+
+The Software, including any modifications or derivative works (unless expressly permitted), is and shall remain the exclusive property of the copyright holder. This License does not transfer any ownership or title to you.
+
+4. Disclaimer of Warranties
+
+THE SOFTWARE IS PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND. THE COPYRIGHT HOLDER DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING BUT NOT LIMITED TO FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
+
+5. Limitation of Liability
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES, HOWEVER CAUSED, UNDER ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT.
+
+6. Termination
+
+This License is effective until terminated. Failure to comply with any term of this License automatically terminates your rights under it. Upon termination, you must immediately cease using and destroy all copies of the Software.
